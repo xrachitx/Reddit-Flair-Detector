@@ -1,0 +1,8 @@
+praw
+pandas
+flask
+bs4
+lxml
+nltk
+gunicorn
+sklearn
