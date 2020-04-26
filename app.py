@@ -8,6 +8,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import RegexpTokenizer
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 import json
 
