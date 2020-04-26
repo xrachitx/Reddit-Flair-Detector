@@ -64,7 +64,7 @@ text
 ## Tasks
 
 ### 1. Extracting Data
-Data was extracted using code/extractData.ipynb jupyter notebook. PRAW API was used to extract data and MongoDB was used to store the extracted data. At first I extracted 100 posts per flair and 10 comments per post. But after that to increase the accuracy of my machine learning model I extracted 250 posts per flair and 30 posts per flair. Increasing the number of posts and comments gave a bump to the accuracy of my model by almost 5%!
+Data was extracted using code/extractData.ipynb jupyter notebook. PRAW API was used to extract data and MongoDB was used to store the extracted data. 11 flairs were taken which were: Scheduled, Politics, Photography, Policy/Economy, AskIndia, Sports, Non-Political, Science/Technology, Food, Business/Finance, Coronavirus.At first I extracted 100 posts per flair and 10 comments per post. But after that to increase the accuracy of my machine learning model I extracted 250 posts per flair and 30 posts per flair. Increasing the number of posts and comments gave a bump to the accuracy of my model by almost 5%!
 
 ### 2. Exploratory Data Analysis
 Data was explored using code/dataVisualisation.ipynb and code/dataVisualisationCleaned.ipynb. In the code/dataVisualisation.ipynb jupyter notebook I explored the top 10 most common words for each flair and it became very evident that the data contains a lot of stopwords which needed removal. Therefore I cleaned the data, by removing any html syntax, normalising by lowering text, removing punctuation, removing numbers and finally removing stop words, before doing any further analysis of the text data.
