@@ -1,13 +1,25 @@
 # Reddit-Flair-Detector
 A web app which detects the flair of a reddit r/india post.
 
-## Deployment
-
-adding text here
-
+## Local Deployment
+1. Clone the git repository.
+2. Create a virtual environment (inside the cloned folder):
 ```bash
-text
+virtualenv -p /usr/bin/python3 virtualenvironment/
 ```
+3. Activate virtual environment:
+```bash
+source virtualenvironment/bin/activate
+```
+4. Install dependencies in requirements.txt:
+```bash
+pip3 install -r requirements.txt
+```
+5. Start the application:
+```bash
+python3 app.py
+```
+6. Go to your local host server mentioned in the terminal and use the flair detector!
 
 ## Tasks
 
