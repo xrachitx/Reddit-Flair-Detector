@@ -3,23 +3,24 @@ A web app created using NLP and Machine Learning which detects the flair of a re
 
 ## Local Deployment
 1. Clone the git repository.
-2. Create a virtual environment (inside the cloned folder):
+2. Add client id, user agent, username and pass word from your reddit account in app.py.
+3. Create a virtual environment (inside the cloned folder):
 ```bash
 virtualenv -p /usr/bin/python3 virtualenvironment/
 ```
-3. Activate virtual environment:
+4. Activate virtual environment:
 ```bash
 source virtualenvironment/bin/activate
 ```
-4. Install dependencies in requirements.txt:
+5. Install dependencies in requirements.txt:
 ```bash
 pip3 install -r requirements.txt
 ```
-5. Start the application:
+6. Start the application:
 ```bash
 python3 app.py
 ```
-6. Go to your local host server mentioned in the terminal and use the flair detector!
+7. Go to your local host server mentioned in the terminal and use the flair detector!
 
 ## Tasks
 
