@@ -3,7 +3,7 @@ A web app created using NLP and Machine Learning which detects the flair of a re
 
 ## Local Deployment
 1. Clone the git repository.
-2. Add client id, user agent, username and pass word from your reddit account in app.py.
+2. Add client id, client secret, user agent, username and pass word from your reddit account in app.py.
 3. Create a virtual environment (inside the cloned folder):
 ```bash
 virtualenv -p /usr/bin/python3 virtualenvironment/
