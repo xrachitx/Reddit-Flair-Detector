@@ -11,7 +11,7 @@ from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 import json
 
-reddit=praw.Reddit(client_id='Qq1MxtQ9YVNXgA',client_secret='hg00d83IEYWEAAT0RdFzm50zm5E', user_agent='testing',  username='mic_testing123',password='Cookies')
+reddit=praw.Reddit(client_id='',client_secret='', user_agent='',  username='',password='')
 
 def decodeHTML(data):
     data = BeautifulSoup(data,"lxml").text
