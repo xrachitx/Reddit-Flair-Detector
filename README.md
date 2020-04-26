@@ -1,5 +1,5 @@
 # Reddit-Flair-Detector
-A web app which detects the flair of a reddit r/india post.
+A web app created using NLP and Machine Learning which detects the flair of a reddit r/india post.
 
 ## Local Deployment
 1. Clone the git repository.
