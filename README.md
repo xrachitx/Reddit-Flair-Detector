@@ -83,7 +83,7 @@ SVM | 63.67
 
 #### Some other Combinations with their best accuracy
 Combination | Algorithm | Accuracy
------------- | -------------
+------------ | -------------|----------
 Title+Body|Multinomial Naive Bayes|60.67
 Title+Comments|Multinomial Naive Bayes|60.67
 Title+Comments+Body|Multinomial Naive Bayes|60.06
