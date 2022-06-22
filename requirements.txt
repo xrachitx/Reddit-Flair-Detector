@@ -10,7 +10,7 @@ lockfile==0.12.2
 lxml==4.5.0
 mypy_extensions==0.4.3
 nltk==3.5
-numpy==1.18.3
+numpy==1.22.0
 ordereddict==1.1
 pandas==1.0.3
 praw==7.0.0
