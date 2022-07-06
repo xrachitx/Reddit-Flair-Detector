@@ -7,7 +7,7 @@ Flask==1.1.2
 importlib_metadata==1.6.0
 ipaddr==2.2.0
 lockfile==0.12.2
-lxml==4.5.0
+lxml==4.9.1
 mypy_extensions==0.4.3
 nltk==3.5
 numpy==1.18.3
