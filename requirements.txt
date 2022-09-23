@@ -14,7 +14,7 @@ numpy==1.18.3
 ordereddict==1.1
 pandas==1.0.3
 praw==7.0.0
-protobuf==3.11.3
+protobuf==3.18.3
 pymongo==3.10.1
 pyOpenSSL==19.1.0
 sklearn==0.0
